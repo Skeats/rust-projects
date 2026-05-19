@@ -110,9 +110,7 @@ fn generate_fibonacci() {
             }
         };
 
-        let mut numbers: Vec<u128> = Vec::new();
-        numbers.push(0);
-        numbers.push(1);
+        let mut numbers: Vec<u128> = vec![0, 1];
 
         // Handle cases where fib_count < 3
         if fib_count == 1 {
